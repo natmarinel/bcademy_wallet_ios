@@ -40,7 +40,7 @@ class DialogMnemonicLengthViewController: UIViewController {
         lblTitle.text = NSLocalizedString("id_new_recovery_phrase", comment: "")
         lblHint.text = NSLocalizedString("id_choose_recovery_phrase_length", comment: "")
         btnLength12.setTitle(String(format: NSLocalizedString("id_d_words", comment: ""), 12), for: .normal)
-        btnLength24.setTitle(String(format: NSLocalizedString("id_d_words", comment: ""), 24), for: .normal)
+        /*btnLength24.setTitle(String(format: NSLocalizedString("id_d_words", comment: ""), 24), for: .normal)*/
     }
 
     func setStyle() {
