@@ -43,7 +43,7 @@ class OverviewAccountCell: UITableViewCell {
     }
 
     func configure(account: WalletItem, action: VoidToVoid? = nil, color: UIColor, showAccounts: Bool, isLiquid: Bool) {
-        bg.backgroundColor = color
+        bg.backgroundColor = UIColor.customMatrixGreenDark()
         if showAccounts { bgShadow.backgroundColor = .clear } else { bgShadow.backgroundColor = color }
         self.lblAccountTitle.text = account.localizedName()
 

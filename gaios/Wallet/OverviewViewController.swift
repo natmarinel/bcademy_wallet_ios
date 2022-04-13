@@ -131,11 +131,11 @@ class OverviewViewController: UIViewController {
 
     func setStyle() {
         actionsView.layer.cornerRadius = 6.0
-        sendImage.tintColor = UIColor.customMatrixGreen()
-        receiveImage.tintColor = UIColor.customMatrixGreen()
+        sendImage.tintColor = UIColor.customMatrixGreenDark()
+        receiveImage.tintColor = UIColor.customMatrixGreenDark()
 
-        if account?.network == AvailableNetworks.bitcoin.rawValue { color = AvailableNetworks.bitcoin.color() }
-        if account?.network == AvailableNetworks.liquid.rawValue { color = AvailableNetworks.liquid.color() }
+        if account?.network == AvailableNetworks.bitcoin.rawValue { color = UIColor.customMatrixGreenDark() }
+        if account?.network == AvailableNetworks.liquid.rawValue { color = UIColor.customMatrixGreenDark() }
         if account?.network == AvailableNetworks.testnet.rawValue { color = AvailableNetworks.testnet.color() }
         if account?.network == AvailableNetworks.testnetLiquid.rawValue { color = AvailableNetworks.testnetLiquid.color() }
     }
