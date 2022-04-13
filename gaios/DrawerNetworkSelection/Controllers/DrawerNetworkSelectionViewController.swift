@@ -114,8 +114,8 @@ extension DrawerNetworkSelectionViewController: UITableViewDataSource, UITableVi
         switch section {
         case 0:
             return headerView(NSLocalizedString("id_all_wallets", comment: "").uppercased())
-        case 1:
-            return headerView(NSLocalizedString("id_devices", comment: "").uppercased())
+        /*case 1:
+            return headerView(NSLocalizedString("id_devices", comment: "").uppercased())*/
         default:
             return nil
         }
