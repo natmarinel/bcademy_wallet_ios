@@ -877,7 +877,7 @@ extension OverviewViewController {
         case .addAccount:
             let section = UIView(frame: CGRect(x: 0, y: 0, width: tableView.frame.width, height: footerH))
             section.backgroundColor = .clear
-            let addBtn = UIButton(frame: .zero)
+            /*let addBtn = UIButton(frame: .zero)
             addBtn.setTitle("Add New Account", for: .normal)
             addBtn.setStyle(.outlinedGray)
             addBtn.translatesAutoresizingMaskIntoConstraints = false
@@ -889,7 +889,7 @@ extension OverviewViewController {
                 addBtn.bottomAnchor.constraint(equalTo: section.bottomAnchor, constant: -10.0),
                 addBtn.leadingAnchor.constraint(equalTo: section.leadingAnchor, constant: 20.0),
                 addBtn.trailingAnchor.constraint(equalTo: section.trailingAnchor, constant: -20.0)
-            ])
+            ])*/
             return section
         case .noTransactions:
             let section = UIView(frame: CGRect(x: 0, y: 0, width: tableView.frame.width, height: footerH))
