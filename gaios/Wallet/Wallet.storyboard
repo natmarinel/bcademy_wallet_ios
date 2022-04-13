@@ -80,7 +80,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zQ6-iC-ztL">
                                         <rect key="frame" x="213" y="33" width="181" height="42"/>
-                                        <color key="backgroundColor" name="customMatrixGreen"/>
+                                        <color key="backgroundColor" name="customMatrixGreenDark"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="42" id="V1I-d7-KKK"/>
                                         </constraints>
@@ -479,7 +479,7 @@
                                             </stackView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r3T-p3-VaB" userLabel="Next">
                                                 <rect key="frame" x="36" y="506" width="353" height="40"/>
-                                                <color key="backgroundColor" name="customMatrixGreen"/>
+                                                <color key="backgroundColor" name="customMatrixGreenDark"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="40" id="Ahh-Kg-OIS"/>
                                                 </constraints>
@@ -582,7 +582,7 @@
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8tJ-c8-bS2">
                                                     <rect key="frame" x="40" y="0.0" width="334" height="122"/>
-                                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                    <color key="backgroundColor" name="customMatrixGreen"/>
                                                 </view>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jTd-6Z-Fg6">
                                                     <rect key="frame" x="20" y="0.0" width="374" height="112"/>
@@ -649,7 +649,7 @@
                                                             </constraints>
                                                         </view>
                                                     </subviews>
-                                                    <color key="backgroundColor" name="accountOrange"/>
+                                                    <color key="backgroundColor" name="customMatrixGreenDark"/>
                                                     <constraints>
                                                         <constraint firstAttribute="trailing" secondItem="12H-fn-wXy" secondAttribute="trailing" constant="10" id="2qC-v9-gw6"/>
                                                         <constraint firstItem="8oO-O1-vUG" firstAttribute="top" secondItem="jTd-6Z-Fg6" secondAttribute="top" constant="20" id="ARF-d3-qet"/>
@@ -961,7 +961,7 @@
                                                                 <constraint firstAttribute="height" constant="22" id="Np0-ib-w3K"/>
                                                             </constraints>
                                                             <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
-                                                            <color key="textColor" red="0.0" green="0.70588235290000001" blue="0.35294117650000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <color key="textColor" name="customMatrixGreenDark"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="default_asset_icon" translatesAutoresizingMaskIntoConstraints="NO" id="jqR-uJ-fXB">
@@ -1188,10 +1188,10 @@
                                 <rect key="frame" x="0.0" y="88" width="375" height="845"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vHO-MO-C5S">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="757"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="697"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="J2r-Lz-f8Q">
-                                                <rect key="frame" x="20" y="20" width="335" height="717"/>
+                                                <rect key="frame" x="20" y="20" width="335" height="657"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LJQ-ax-s3s">
                                                         <rect key="frame" x="0.0" y="0.0" width="335" height="523"/>
@@ -1348,8 +1348,8 @@
                                                             <constraint firstItem="CPB-89-xYa" firstAttribute="top" secondItem="d3P-Or-Xp0" secondAttribute="bottom" constant="16" id="yV1-zl-m9M"/>
                                                         </constraints>
                                                     </view>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WdT-BZ-t28" userLabel="Next">
-                                                        <rect key="frame" x="0.0" y="677" width="335" height="40"/>
+                                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WdT-BZ-t28" userLabel="Next">
+                                                        <rect key="frame" x="0.0" y="657" width="335" height="40"/>
                                                         <color key="backgroundColor" white="1" alpha="0.071811733650000001" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="40" id="rtN-8f-Pd9"/>
@@ -1428,13 +1428,10 @@
         <image name="ic_edit" width="24" height="24"/>
         <image name="ic_share" width="24" height="24"/>
         <image name="ic_spv_warning" width="60" height="60"/>
-        <image name="logo" width="22.5" height="28"/>
+        <image name="logo" width="225.5" height="96.5"/>
         <image name="receive" width="25" height="25"/>
         <image name="refresh" width="25" height="25"/>
         <image name="send" width="25" height="25"/>
-        <namedColor name="accountOrange">
-            <color red="0.99607843137254903" green="0.55686274509803924" blue="0.0078431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
         <namedColor name="customGrayLight">
             <color red="0.42699998617172241" green="0.47099998593330383" blue="0.50199997425079346" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
@@ -1442,7 +1439,10 @@
             <color red="0.19215686274509805" green="0.23137254901960785" blue="0.27058823529411763" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="customMatrixGreen">
-            <color red="0.0" green="0.70599997043609619" blue="0.3529999852180481" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.75599998235702515" green="0.81099998950958252" blue="0.84299999475479126" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="customMatrixGreenDark">
+            <color red="0.56000000238418579" green="0.71299999952316284" blue="0.79600000381469727" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="customModalBlueDark">
             <color red="0.098039215686274508" green="0.13333333333333333" blue="0.17254901960784313" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1459,9 +1459,6 @@
         <namedColor name="warningYellow">
             <color red="0.90196078431372551" green="0.72549019607843135" blue="0.17647058823529413" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
         <systemColor name="systemRedColor">
             <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

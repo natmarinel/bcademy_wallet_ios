@@ -155,7 +155,7 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZlA-Mv-UI7" userLabel="Next">
                                 <rect key="frame" x="36" y="478" width="248" height="54"/>
-                                <color key="backgroundColor" name="customMatrixGreen"/>
+                                <color key="backgroundColor" name="customMatrixGreenDark"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="54" id="qkO-CE-Hws"/>
                                 </constraints>
@@ -335,7 +335,7 @@
                             </scrollView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Wa-kH-xbc" userLabel="Next">
                                 <rect key="frame" x="36" y="478" width="248" height="54"/>
-                                <color key="backgroundColor" name="customMatrixGreen"/>
+                                <color key="backgroundColor" name="customMatrixGreenDark"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="54" id="Dot-Ao-Iy9"/>
                                 </constraints>
@@ -423,7 +423,7 @@
                                                     <constraint firstAttribute="height" constant="20" id="W48-wW-635"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="textColor" name="customMatrixGreenDark"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalCentering" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="e0w-69-PET">
@@ -633,7 +633,7 @@
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a59-oi-3MP" userLabel="Next">
                                         <rect key="frame" x="36" y="349.5" width="248" height="54"/>
-                                        <color key="backgroundColor" name="customMatrixGreen"/>
+                                        <color key="backgroundColor" name="customMatrixGreenDark"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="54" id="AwL-MO-crO"/>
                                         </constraints>
@@ -697,11 +697,8 @@
         <image name="onboarding_noscrshot" width="25" height="25"/>
         <image name="onboarding_write" width="25" height="25"/>
         <image name="rightArrow" width="9" height="14"/>
-        <namedColor name="customMatrixGreen">
-            <color red="0.0" green="0.70599997043609619" blue="0.3529999852180481" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
         <namedColor name="customMatrixGreenDark">
-            <color red="0.10599999874830246" green="0.46700000762939453" blue="0.27099999785423279" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.56000000238418579" green="0.71299999952316284" blue="0.79600000381469727" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="customTitaniumDark">
             <color red="0.071000002324581146" green="0.090000003576278687" blue="0.11800000071525574" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
